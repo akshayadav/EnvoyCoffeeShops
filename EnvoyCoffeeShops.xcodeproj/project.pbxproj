@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BA0724DF2D6BCD98008E7D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0724C42D6BCD96008E7D18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA0724CB2D6BCD96008E7D18;
+			remoteInfo = EnvoyCoffeeShops;
+		};
+		BA0724E92D6BCD98008E7D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA0724C42D6BCD96008E7D18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA0724CB2D6BCD96008E7D18;
+			remoteInfo = EnvoyCoffeeShops;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA0724CC2D6BCD96008E7D18 /* EnvoyCoffeeShops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnvoyCoffeeShops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0724DE2D6BCD98008E7D18 /* EnvoyCoffeeShopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvoyCoffeeShopsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0724E82D6BCD98008E7D18 /* EnvoyCoffeeShopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnvoyCoffeeShopsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BA0724CE2D6BCD96008E7D18 /* EnvoyCoffeeShops */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EnvoyCoffeeShops;
+			sourceTree = "<group>";
+		};
+		BA0724E12D6BCD98008E7D18 /* EnvoyCoffeeShopsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EnvoyCoffeeShopsTests;
+			sourceTree = "<group>";
+		};
+		BA0724EB2D6BCD98008E7D18 /* EnvoyCoffeeShopsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EnvoyCoffeeShopsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0724C92D6BCD96008E7D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0724DB2D6BCD98008E7D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0724E52D6BCD98008E7D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA0724C32D6BCD96008E7D18 = {
+			isa = PBXGroup;
+			children = (
+				BA0724CE2D6BCD96008E7D18 /* EnvoyCoffeeShops */,
+				BA0724E12D6BCD98008E7D18 /* EnvoyCoffeeShopsTests */,
+				BA0724EB2D6BCD98008E7D18 /* EnvoyCoffeeShopsUITests */,
+				BA0724CD2D6BCD96008E7D18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0724CD2D6BCD96008E7D18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA0724CC2D6BCD96008E7D18 /* EnvoyCoffeeShops.app */,
+				BA0724DE2D6BCD98008E7D18 /* EnvoyCoffeeShopsTests.xctest */,
+				BA0724E82D6BCD98008E7D18 /* EnvoyCoffeeShopsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA0724CB2D6BCD96008E7D18 /* EnvoyCoffeeShops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0724F22D6BCD98008E7D18 /* Build configuration list for PBXNativeTarget "EnvoyCoffeeShops" */;
+			buildPhases = (
+				BA0724C82D6BCD96008E7D18 /* Sources */,
+				BA0724C92D6BCD96008E7D18 /* Frameworks */,
+				BA0724CA2D6BCD96008E7D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BA0724CE2D6BCD96008E7D18 /* EnvoyCoffeeShops */,
+			);
+			name = EnvoyCoffeeShops;
+			packageProductDependencies = (
+			);
+			productName = EnvoyCoffeeShops;
+			productReference = BA0724CC2D6BCD96008E7D18 /* EnvoyCoffeeShops.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA0724DD2D6BCD98008E7D18 /* EnvoyCoffeeShopsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0724F52D6BCD98008E7D18 /* Build configuration list for PBXNativeTarget "EnvoyCoffeeShopsTests" */;
+			buildPhases = (
+				BA0724DA2D6BCD98008E7D18 /* Sources */,
+				BA0724DB2D6BCD98008E7D18 /* Frameworks */,
+				BA0724DC2D6BCD98008E7D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0724E02D6BCD98008E7D18 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BA0724E12D6BCD98008E7D18 /* EnvoyCoffeeShopsTests */,
+			);
+			name = EnvoyCoffeeShopsTests;
+			packageProductDependencies = (
+			);
+			productName = EnvoyCoffeeShopsTests;
+			productReference = BA0724DE2D6BCD98008E7D18 /* EnvoyCoffeeShopsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA0724E72D6BCD98008E7D18 /* EnvoyCoffeeShopsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0724F82D6BCD98008E7D18 /* Build configuration list for PBXNativeTarget "EnvoyCoffeeShopsUITests" */;
+			buildPhases = (
+				BA0724E42D6BCD98008E7D18 /* Sources */,
+				BA0724E52D6BCD98008E7D18 /* Frameworks */,
+				BA0724E62D6BCD98008E7D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0724EA2D6BCD98008E7D18 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BA0724EB2D6BCD98008E7D18 /* EnvoyCoffeeShopsUITests */,
+			);
+			name = EnvoyCoffeeShopsUITests;
+			packageProductDependencies = (
+			);
+			productName = EnvoyCoffeeShopsUITests;
+			productReference = BA0724E82D6BCD98008E7D18 /* EnvoyCoffeeShopsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA0724C42D6BCD96008E7D18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BA0724CB2D6BCD96008E7D18 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BA0724DD2D6BCD98008E7D18 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BA0724CB2D6BCD96008E7D18;
+					};
+					BA0724E72D6BCD98008E7D18 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BA0724CB2D6BCD96008E7D18;
+					};
+				};
+			};
+			buildConfigurationList = BA0724C72D6BCD96008E7D18 /* Build configuration list for PBXProject "EnvoyCoffeeShops" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA0724C32D6BCD96008E7D18;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BA0724CD2D6BCD96008E7D18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA0724CB2D6BCD96008E7D18 /* EnvoyCoffeeShops */,
+				BA0724DD2D6BCD98008E7D18 /* EnvoyCoffeeShopsTests */,
+				BA0724E72D6BCD98008E7D18 /* EnvoyCoffeeShopsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA0724CA2D6BCD96008E7D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0724DC2D6BCD98008E7D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0724E62D6BCD98008E7D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0724C82D6BCD96008E7D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0724DA2D6BCD98008E7D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0724E42D6BCD98008E7D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA0724E02D6BCD98008E7D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA0724CB2D6BCD96008E7D18 /* EnvoyCoffeeShops */;
+			targetProxy = BA0724DF2D6BCD98008E7D18 /* PBXContainerItemProxy */;
+		};
+		BA0724EA2D6BCD98008E7D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA0724CB2D6BCD96008E7D18 /* EnvoyCoffeeShops */;
+			targetProxy = BA0724E92D6BCD98008E7D18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA0724F02D6BCD98008E7D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA0724F12D6BCD98008E7D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA0724F32D6BCD98008E7D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EnvoyCoffeeShops/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..EnvoyCoffeeShops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA0724F42D6BCD98008E7D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EnvoyCoffeeShops/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..EnvoyCoffeeShops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA0724F62D6BCD98008E7D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..EnvoyCoffeeShopsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnvoyCoffeeShops.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EnvoyCoffeeShops";
+			};
+			name = Debug;
+		};
+		BA0724F72D6BCD98008E7D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..EnvoyCoffeeShopsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnvoyCoffeeShops.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EnvoyCoffeeShops";
+			};
+			name = Release;
+		};
+		BA0724F92D6BCD98008E7D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..EnvoyCoffeeShopsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnvoyCoffeeShops;
+			};
+			name = Debug;
+		};
+		BA0724FA2D6BCD98008E7D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..EnvoyCoffeeShopsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnvoyCoffeeShops;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA0724C72D6BCD96008E7D18 /* Build configuration list for PBXProject "EnvoyCoffeeShops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0724F02D6BCD98008E7D18 /* Debug */,
+				BA0724F12D6BCD98008E7D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0724F22D6BCD98008E7D18 /* Build configuration list for PBXNativeTarget "EnvoyCoffeeShops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0724F32D6BCD98008E7D18 /* Debug */,
+				BA0724F42D6BCD98008E7D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0724F52D6BCD98008E7D18 /* Build configuration list for PBXNativeTarget "EnvoyCoffeeShopsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0724F62D6BCD98008E7D18 /* Debug */,
+				BA0724F72D6BCD98008E7D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0724F82D6BCD98008E7D18 /* Build configuration list for PBXNativeTarget "EnvoyCoffeeShopsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0724F92D6BCD98008E7D18 /* Debug */,
+				BA0724FA2D6BCD98008E7D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA0724C42D6BCD96008E7D18 /* Project object */;
+}
