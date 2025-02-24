@@ -25,7 +25,7 @@ struct EnvoyCoffeeShopsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CoffeeShopsViewer()
         }
         .modelContainer(sharedModelContainer)
     }
