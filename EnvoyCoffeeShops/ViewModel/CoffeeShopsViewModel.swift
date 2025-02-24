@@ -16,6 +16,7 @@ public class CoffeeShopsViewModel {
     private let networkManager = NetworkManager.shared
     private let authenticationManager = AuthenticationManager.shared
     
+    // Offset for fetching records
     private var offset = 0
     
     public var coffeeShops: [CoffeeShop] = []

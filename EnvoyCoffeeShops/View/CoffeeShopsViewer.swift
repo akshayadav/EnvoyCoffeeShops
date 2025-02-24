@@ -46,7 +46,8 @@ public struct CoffeeShopsViewer: View {
                 CoffeeShopListItemView(
                     title: coffeeShop.name,
                     imageURL: coffeeShop.imageURL(),
-                    address: coffeeShop.location?.display_address, price: coffeeShop.price,
+                    address: coffeeShop.location?.display_address,
+                    price: coffeeShop.price,
                     phone: coffeeShop.phone,
                     distance: coffeeShop.distanceString(),
                     url: coffeeShop.websiteURL()
