@@ -10,7 +10,7 @@ import OSLog
 
 fileprivate struct AuthenticationKey {
     
-    static let apiKey = "U8sdxIAJ1KVbIpw9LzxgxAOvE-SmicrKax5e-FH8ySX-dbswhwXiyv3gEHq155Bg3IuhZtTnjazdvrT13-pwSHK7w-3hm3i6R41Q47YnUZrt0sWncFm41XkAjIa7Z3Yx"
+    static let apiKey = "" // UPDATE THE API KEY
     
     static let url = "https://api.yelp.com/v3/businesses/search"
 }
